@@ -67,20 +67,20 @@
 <p style="font-size: 16px;font-weight: 600;text-align: center;">
 Just a student and forever learner. 
 </p>
-<div class="row mt-4">
+<div class="row mt-5">
 <div class="col-lg-6">
-<ul style="margin-top: 50px;">
+<ul>
 <!-- <li><i class="bi bi-chevron-right"></i><strong>Birthday:</strong> 7 November </li> -->
 <!-- <li><i class="bi bi-chevron-right"></i><strong>Phone:</strong> +916280310689</li> -->
-<li><i class="bi bi-chevron-right"></i><strong>Work location:</strong> Bangalore, Karnataka, India</li>
-<li><i class="bi bi-chevron-right"></i><strong>Email:</strong> harshitshharma7@gmail.com </li>
+<li><i class="bi bi-chevron-right"></i><strong class="info-title">Work location:</strong> Bangalore, Karnataka, India</li>
+<li><i class="bi bi-chevron-right"></i><strong class="info-title">Email:</strong> harshitshharma7@gmail.com </li>
 
 </ul>
 </div>
 <div class="col-lg-6">
-  <ul style="margin-top: 50px;">
+  <ul>
     <!-- <li><i class="bi bi-chevron-right"></i><strong>Age:</strong> 22</li> -->
-    <li><i class="bi bi-chevron-right"></i><strong>Degree:</strong> Bachelor of Engineering in Computer Science</li>
+    <li><i class="bi bi-chevron-right"></i><strong class="info-title">Degree:</strong> Bachelor of Engineering in Computer Science</li>
     <li><i class="bi bi-chevron-right"></i><strong><a href="https://harshitsharma.com" style="color:rgb(125 125 194); text-decoration: none;">Portfolio Website</a></strong> </li>
     <!-- <li><i class="bi bi-chevron-right"></i><strong>Freelance:</strong> Unavailable</li> -->
   </ul>
@@ -321,7 +321,7 @@ Chitkara University, Punjab, India
 <div class="row">
   <div class="col-sm-6 col-lg-4">
     <div class="card mb-5">
-      <a href="https://iei.chitkara.edu.in" style="text-decoration: none; color: #a8b2d1;" target="_blank">
+      <a href="https://iei.chitkara.edu.in" style="text-decoration: none;" target="_blank">
       <img class="card-img-top img-fluid" src="./assets/images/ieiWebsitess.JPG" alt="IEI Official Website Screenshot" width="380">
       <div class="card-body">
         <h4 class="card-title">IEI Official Website</h4>
@@ -334,7 +334,7 @@ Chitkara University, Punjab, India
   </div>
   <div class="col-sm-6 col-lg-4">
     <div class="card mb-5">
-      <a href="https://harshitsharma.com/DawaiHaq" style="text-decoration: none; color: #a8b2d1;" target="_blank">
+      <a href="https://harshitsharma.com/DawaiHaq" style="text-decoration: none;" target="_blank">
       <img class="card-img-top img-fluid" src="./assets/images/dhaqWebsitess.JPG" alt="Dawai Haq Website Screenshot" width="380">
       <div class="card-body">
         <h4 class="card-title">Dawai Haq</h4>
@@ -358,7 +358,7 @@ Chitkara University, Punjab, India
   </div>
   <div class="col-sm-6 col-lg-4">
     <div class="card mb-5">
-      <a href="https://ibhavikamalhotra.github.io/Webomania-NEP/" style="text-decoration: none; color: #a8b2d1;" target="_blank">
+      <a href="https://ibhavikamalhotra.github.io/Webomania-NEP/" style="text-decoration: none;" target="_blank">
       <img class="card-img-top img-fluid" src="./assets/images/NEPWebsitess.JPG" alt="Card image cap" width="380">
       <div class="card-body">
         <h4 class="card-title">National Education Policy</h4>
@@ -415,7 +415,7 @@ Chitkara University, Punjab, India
   <h4>
     Email
   </h4>
-  <a href="mailto:harshitshharma7@gmail.com" style="text-decoration: none; color: #ccd6f6;">
+  <a href="mailto:harshitshharma7@gmail.com" style="color: #ccd6f6; text-decoration:none">
   <p>
     harshitshharma7@gmail.com
   </p>
@@ -473,7 +473,7 @@ Chitkara University, Punjab, India
 }).then(res =>{
 	if (res.status === 201){
     document.getElementsByClassName('spinner-border')[0].classList.add('d-none');
-    setTimeout(function(){alert("Your message has been sent successfully")},1500);
+    setTimeout(function(){alert("Your message has been sent successfully")},500);
   }
 	else{
 		alert("Server error !");
