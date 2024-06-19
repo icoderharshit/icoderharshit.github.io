@@ -60,8 +60,10 @@ html {
 #navi {
   position: fixed;
   z-index: 5;
-  top: 23%;
   left: -15px;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 #about,
 #resume,
@@ -69,7 +71,7 @@ html {
 #services,
 #contact,
 .skills-section {
-  padding-top: 60px;
+  /* padding-top: 60px; */
   /* text-align: center; */
   /* font-size: 35px; */
   min-height: 100vh;
@@ -80,9 +82,7 @@ html {
 #contact {
   min-height: 70vh;
 }
-#skills {
-  padding-top: 60px;
-}
+
 .activemenu {
   background-color: rgb(66, 54, 121) !important;
 }
@@ -109,10 +109,13 @@ background-color: rgb(86, 78, 161);
 } */
 #navi li i {
   position: absolute;
-  left: 33%;
-  top: 27.5%;
   font-size: 18px;
   color: rgb(10, 10, 10);
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 #navi li a {
   text-align: center;
@@ -433,7 +436,8 @@ background-color: rgb(86, 78, 161);
   background-color: #2e3c52 !important;
   color: #ccd6f6 !important;
 }
-.dark-card {
+.dark-card,
+.dark-card a {
   background-color: #2e3c52 !important;
   color: #a8b2d1 !important;
 }
@@ -485,4 +489,15 @@ background-color: rgb(86, 78, 161);
   #hero {
     background-position: center;
   }
+  .info-title {
+    display: none;
+  }
+}
+
+.card a {
+  color: #212529;
+}
+
+.email a {
+  display: flex;
 }
