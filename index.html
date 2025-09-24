@@ -533,7 +533,7 @@ Chitkara University, Punjab
   function sendMessage(){
     document.getElementsByClassName('spinner-border')[0].classList.remove('d-none');
     document.getElementsByClassName('spinner-border')[0].classList.add('d-inline-block');
-    fetch("https://api.apispreadsheets.com/data/18425/", {
+    fetch("https://api.sheetmonkey.io/form/hReU1VcKTbDNGnQEzyY4nf", {
 	method: "POST",
 	body: JSON.stringify({"data": {"Timestamp":new Date().getTime(),"Your Name":document.getElementById('name').value,"Your Email":document.getElementById('email').value,"Subject":document.getElementById('subject').value,"Message":document.getElementById('message').value}}),
 }).then(res =>{
@@ -550,3 +550,4 @@ Chitkara University, Punjab
 </script>
 </body>
 </html>
+
