@@ -488,27 +488,30 @@ Chitkara University, Punjab
   </a>
 </div>
 </div>
+	<form action="https://api.sheetmonkey.io/form/hReU1VcKTbDNGnQEzyY4nf" method="post">
 <div class="col-lg-8">
   <div class="row">
 <div class="col-lg-6">
-  <input type="text" placeholder="Your Name" id="name">
+  <input type="text" placeholder="Your Name" id="name" name="Name">
 </div>
 <div class="col-lg-6">
-  <input type="email" placeholder="Your Email" id="email">
+  <input type="email" placeholder="Your Email" id="email" name="Email">
 </div>
 <div class="col-lg-12">
-<input type="text" placeholder="Subject" id="subject">
+<input type="text" placeholder="Subject" id="subject" name="Subject">
 </div>
 <div class="col-lg-12">
-<textarea placeholder="Message" id="message"></textarea>
+<textarea placeholder="Message" id="message" name="message"></textarea>
 </div>
 </div>
 <div class="row">
   <div class="mt-4 justify-content-center">
-    <button onclick="sendMessage()"><span id="btn-text">Send Message</span> &nbsp; <span class="spinner-border d-none"></span></button>
+	    <input type="submit" id="btn-text" value="Send Message" />
+    <!-- <button onclick="sendMessage()"><span id="btn-text">Send Message</span> &nbsp; <span class="spinner-border d-none"></span></button> -->
     </div>
 </div>
 </div>
+	</form>
 </div>
 </div>
   </section>
@@ -529,7 +532,7 @@ Chitkara University, Punjab
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="./assets/js/jqueryfile.js"></script>
-<script>
+<!-- <script>
   function sendMessage(){
     document.getElementsByClassName('spinner-border')[0].classList.remove('d-none');
     document.getElementsByClassName('spinner-border')[0].classList.add('d-inline-block');
@@ -547,7 +550,8 @@ Chitkara University, Punjab
 	}
 })
   }
-</script>
+</script> -->
 </body>
 </html>
+
 
