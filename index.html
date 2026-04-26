@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Harshit Sharma — Product & Marketing</title>
-  <meta name="description" content="Harshit Sharma — MBA, IIM Jammu. Tech-driven business professional passionate about Product Management, Marketing, and Growth." />
+  <title>Harshit Sharma - Product & Marketing</title>
+  <meta name="description" content="Harshit Sharma - MBA, IIM Jammu. Tech-driven business professional passionate about Product Management, Marketing, and Growth." />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,7 +46,7 @@
   <!-- ===== HERO ===== -->
   <section id="hero">
     <div class="hero-left fade-up">
-      <div class="hero-tag">MBA · IIM Jammu · PPO @ Vedanta</div>
+      <!-- <div class="hero-tag">MBA · IIM Jammu · PPO @ Vedanta</div> -->
       <h1>Building<br><em>Products</em><br>that Matter</h1>
       <p class="hero-desc">
         Tech-driven business professional blending <strong>engineering depth</strong> with <strong>strategic thinking</strong>. Passionate about product, growth, and making technology create real-world impact.
@@ -58,33 +58,127 @@
     </div>
 
     <div class="hero-right fade-up">
-      <div class="hero-graphic">
-        <div class="hero-initials">HS</div>
-        <!-- <span style="background-image: url(./hero.png); height: max-content;"></span> -->
+      <div class="hero-graphic hero-graphic--svg">
+        <div class="badge-float badge-float--top">📍 Ludhiana, India</div>
+        <div class="badge-float badge-float--bottom">IIM Jammu MBA '26</div>
 
-        <!-- <div class="hero-card-inner">
-          <div class="hero-card-title">Harshit<br>Sharma</div>
-          <div class="hero-stats">
-            <div class="stat-item">
-              <div class="stat-num">2+</div>
-              <div class="stat-label">Years of Experience</div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-num">65%</div>
-              <div class="stat-label">Onboarding Time Cut</div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-num">300+</div>
-              <div class="stat-label">Teams (PM Club)</div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-num">PPO</div>
-              <div class="stat-label">Hindustan Zinc</div>
-            </div>
-          </div>
-        </div> -->
-        <!-- <div class="badge-float badge-float--top">📍 Ludhiana, India</div> -->
-        <!-- <div class="badge-float badge-float--bottom">IIM MBA '26</div> -->
+        <!-- Option 4: Animated SVG Mind-Map Illustration -->
+        <svg viewBox="0 0 380 480" xmlns="http://www.w3.org/2000/svg" width="380" height="480" style="display:block;">
+          <defs>
+            <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+              <feGaussianBlur stdDeviation="4" result="blur"/>
+              <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+            <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+              <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="rgba(0,0,0,0.13)"/>
+            </filter>
+            <radialGradient id="nodeGrad" cx="50%" cy="35%" r="65%">
+              <stop offset="0%" stop-color="#e8734a"/>
+              <stop offset="100%" stop-color="#c8522a"/>
+            </radialGradient>
+            <radialGradient id="centerGrad" cx="50%" cy="35%" r="65%">
+              <stop offset="0%" stop-color="#2a2520"/>
+              <stop offset="100%" stop-color="#0d0d0d"/>
+            </radialGradient>
+          </defs>
+
+          <!-- Background -->
+          <rect width="380" height="480" fill="var(--cream)" rx="4"/>
+
+          <!-- Grid dots -->
+          <g opacity="0.15" fill="var(--muted)">
+            <circle cx="30"  cy="30"  r="1.5"/><circle cx="90"  cy="30"  r="1.5"/><circle cx="150" cy="30"  r="1.5"/>
+            <circle cx="210" cy="30"  r="1.5"/><circle cx="270" cy="30"  r="1.5"/><circle cx="330" cy="30"  r="1.5"/>
+            <circle cx="30"  cy="90"  r="1.5"/><circle cx="90"  cy="90"  r="1.5"/><circle cx="270" cy="90"  r="1.5"/>
+            <circle cx="330" cy="90"  r="1.5"/><circle cx="30"  cy="150" r="1.5"/><circle cx="330" cy="150" r="1.5"/>
+            <circle cx="30"  cy="270" r="1.5"/><circle cx="330" cy="270" r="1.5"/><circle cx="30"  cy="330" r="1.5"/>
+            <circle cx="90"  cy="330" r="1.5"/><circle cx="270" cy="330" r="1.5"/><circle cx="330" cy="330" r="1.5"/>
+            <circle cx="30"  cy="390" r="1.5"/><circle cx="90"  cy="390" r="1.5"/><circle cx="150" cy="390" r="1.5"/>
+            <circle cx="210" cy="390" r="1.5"/><circle cx="270" cy="390" r="1.5"/><circle cx="330" cy="390" r="1.5"/>
+            <circle cx="30"  cy="450" r="1.5"/><circle cx="150" cy="450" r="1.5"/><circle cx="210" cy="450" r="1.5"/>
+            <circle cx="330" cy="450" r="1.5"/>
+          </g>
+
+          <!-- Connector lines: center → satellites -->
+          <g stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="5 4" opacity="0.45" fill="none">
+            <line x1="190" y1="210" x2="108" y2="118"><animate attributeName="stroke-dashoffset" from="0" to="-18" dur="2s"   repeatCount="indefinite"/></line>
+            <line x1="190" y1="210" x2="288" y2="126"><animate attributeName="stroke-dashoffset" from="0" to="-18" dur="2.4s" repeatCount="indefinite"/></line>
+            <line x1="190" y1="210" x2="78"  y2="300"><animate attributeName="stroke-dashoffset" from="0" to="-18" dur="1.8s" repeatCount="indefinite"/></line>
+            <line x1="190" y1="210" x2="300" y2="300"><animate attributeName="stroke-dashoffset" from="0" to="-18" dur="2.2s" repeatCount="indefinite"/></line>
+            <line x1="190" y1="210" x2="190" y2="368"><animate attributeName="stroke-dashoffset" from="0" to="-18" dur="2s"   repeatCount="indefinite"/></line>
+          </g>
+          <!-- Secondary cross-connectors -->
+          <g stroke="var(--border)" stroke-width="1" stroke-dasharray="3 6" opacity="0.45" fill="none">
+            <line x1="108" y1="118" x2="288" y2="126"/>
+            <line x1="78"  y1="300" x2="300" y2="300"/>
+            <line x1="108" y1="118" x2="78"  y2="300"/>
+            <line x1="288" y1="126" x2="300" y2="300"/>
+          </g>
+
+          <!-- Travelling pulse dots (one per line) -->
+          <defs>
+            <path id="p1" d="M190,210 L108,118"/>
+            <path id="p2" d="M190,210 L288,126"/>
+            <path id="p3" d="M190,210 L78,300"/>
+            <path id="p4" d="M190,210 L300,300"/>
+            <path id="p5" d="M190,210 L190,368"/>
+          </defs>
+          <circle r="3.5" fill="var(--accent)" filter="url(#glow)"><animateMotion dur="2s"   repeatCount="indefinite" begin="0s"><mpath href="#p1"/></animateMotion></circle>
+          <circle r="3.5" fill="var(--accent)" filter="url(#glow)"><animateMotion dur="2.4s" repeatCount="indefinite" begin="0.6s"><mpath href="#p2"/></animateMotion></circle>
+          <circle r="3.5" fill="var(--accent)" filter="url(#glow)"><animateMotion dur="1.8s" repeatCount="indefinite" begin="1s"><mpath href="#p3"/></animateMotion></circle>
+          <circle r="3.5" fill="var(--accent)" filter="url(#glow)"><animateMotion dur="2.2s" repeatCount="indefinite" begin="0.3s"><mpath href="#p4"/></animateMotion></circle>
+          <circle r="3.5" fill="var(--accent)" filter="url(#glow)"><animateMotion dur="2s"   repeatCount="indefinite" begin="1.4s"><mpath href="#p5"/></animateMotion></circle>
+
+          <!-- Satellite: Product Thinking -->
+          <g filter="url(#shadow)">
+            <circle cx="108" cy="118" r="38" fill="url(#nodeGrad)"><animate attributeName="r" values="38;40;38" dur="3s" repeatCount="indefinite"/></circle>
+            <text x="108" y="112" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="8.5" font-weight="600" fill="rgba(255,255,255,0.72)" letter-spacing="1">PRODUCT</text>
+            <text x="108" y="126" text-anchor="middle" font-family="'Playfair Display',serif" font-size="11" font-weight="700" fill="#fff">Thinking</text>
+          </g>
+
+          <!-- Satellite: Marketing -->
+          <g filter="url(#shadow)">
+            <circle cx="288" cy="126" r="36" fill="url(#nodeGrad)"><animate attributeName="r" values="36;38;36" dur="3.5s" repeatCount="indefinite" begin="0.5s"/></circle>
+            <text x="288" y="120" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="8.5" font-weight="600" fill="rgba(255,255,255,0.72)" letter-spacing="1">MARKETING</text>
+            <text x="288" y="134" text-anchor="middle" font-family="'Playfair Display',serif" font-size="11" font-weight="700" fill="#fff">Strategy</text>
+          </g>
+
+          <!-- Satellite: Engineering -->
+          <g filter="url(#shadow)">
+            <circle cx="78" cy="300" r="34" fill="url(#nodeGrad)"><animate attributeName="r" values="34;36;34" dur="2.8s" repeatCount="indefinite" begin="1s"/></circle>
+            <text x="78" y="294" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="8.5" font-weight="600" fill="rgba(255,255,255,0.72)" letter-spacing="1">SOFTWARE</text>
+            <text x="78" y="308" text-anchor="middle" font-family="'Playfair Display',serif" font-size="11" font-weight="700" fill="#fff">Engineer</text>
+          </g>
+
+          <!-- Satellite: Business -->
+          <g filter="url(#shadow)">
+            <circle cx="300" cy="300" r="34" fill="url(#nodeGrad)"><animate attributeName="r" values="34;36;34" dur="3.2s" repeatCount="indefinite" begin="0.8s"/></circle>
+            <text x="300" y="294" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="8.5" font-weight="600" fill="rgba(255,255,255,0.72)" letter-spacing="1">BUSINESS</text>
+            <text x="300" y="308" text-anchor="middle" font-family="'Playfair Display',serif" font-size="11" font-weight="700" fill="#fff">Strategy</text>
+          </g>
+
+          <!-- Satellite: Growth -->
+          <g filter="url(#shadow)">
+            <circle cx="190" cy="368" r="32" fill="url(#nodeGrad)"><animate attributeName="r" values="32;34;32" dur="2.6s" repeatCount="indefinite" begin="1.2s"/></circle>
+            <text x="190" y="362" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="8.5" font-weight="600" fill="rgba(255,255,255,0.72)" letter-spacing="1">GROWTH</text>
+            <text x="190" y="376" text-anchor="middle" font-family="'Playfair Display',serif" font-size="11" font-weight="700" fill="#fff">&amp; GTM</text>
+          </g>
+
+          <!-- CENTER NODE -->
+          <g filter="url(#shadow)">
+            <circle cx="190" cy="210" r="52" fill="url(#centerGrad)"><animate attributeName="r" values="52;55;52" dur="4s" repeatCount="indefinite"/></circle>
+            <circle cx="190" cy="210" r="58" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.55">
+              <animateTransform attributeName="transform" type="rotate" from="0 190 210" to="360 190 210" dur="12s" repeatCount="indefinite"/>
+            </circle>
+            <text x="190" y="202" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="8" font-weight="600" fill="rgba(255,255,255,0.55)" letter-spacing="2">HARSHIT</text>
+            <text x="190" y="218" text-anchor="middle" font-family="'Playfair Display',serif" font-size="15" font-weight="900" fill="#fff">SHARMA</text>
+            <!-- <text x="190" y="233" text-anchor="middle" font-family="'DM Sans',sans-serif" font-size="7" fill="rgba(255,255,255,0.45)" letter-spacing="1">MBA · PM · ENGINEER</text> -->
+          </g>
+
+          <!-- Footer label -->
+          <text x="18" y="464" font-family="'Playfair Display',serif" font-size="9" font-style="italic" fill="var(--muted)" opacity="0.55">Product × Tech × Growth</text>
+          <text x="362" y="20" text-anchor="end" font-family="'DM Sans',sans-serif" font-size="8" fill="var(--accent)" letter-spacing="1" opacity="0.65">2025</text>
+        </svg>
       </div>
     </div>
   </section>
@@ -99,9 +193,9 @@
 
     <div class="about-grid">
       <div class="about-text fade-up">
-        <p>I'm a <strong>tech-driven business professional</strong> with a Bachelor of Engineering in Computer Science from Chitkara University and an MBA from the <strong>Indian Institute of Management Jammu</strong> — a rare blend that lets me navigate both product code and boardroom strategy.</p>
-        <p>As a Software Engineer at <strong>Intervue</strong> and an Associate Software Engineer at <strong>Toddle</strong>, I built full-stack products, designed component systems, and shipped features used by thousands. My work consistently moved metrics — 65% faster onboarding, 40% faster report generation, 45% boost in content efficiency.</p>
-        <p>During my MBA, I interned at <strong>Hindustan Zinc (Vedanta Group)</strong> in Marketing, working on demand forecasting and value-added product opportunities — earning a Pre-Placement Offer for delivering real impact.</p>
+        <p>I'm a <strong>tech-driven business professional</strong> with a Bachelor of Engineering in Computer Science from Chitkara University and an MBA from the <strong>Indian Institute of Management (IIM) Jammu</strong> - a rare blend that lets me navigate both product code and boardroom strategy.</p>
+        <p>As a Software Engineer at <strong>Intervue</strong> and an Associate Software Engineer at <strong>Toddle</strong>, I built full-stack products, designed component systems, and shipped features used by thousands. My work consistently moved metrics - 65% faster onboarding, 40% faster report generation, 45% boost in content efficiency.</p>
+        <p>During my MBA, I interned at <strong>Hindustan Zinc (Vedanta Group)</strong> in Marketing, working on demand forecasting and value-added product opportunities - earning a Pre-Placement Offer for delivering real impact.</p>
         <p>I'm now transitioning fully into <strong>Product Management and Marketing</strong>, driven by the belief that the best products sit at the intersection of technology, empathy, and strategy.</p>
       </div>
 
@@ -109,7 +203,7 @@
         <div class="quote-block">
           <blockquote>
             "The best way to predict the future is to create it."
-            <cite>— Harshit's guiding belief</cite>
+            <cite>- Harshit's guiding belief</cite>
           </blockquote>
         </div>
         <ul class="interests-list">
@@ -137,12 +231,13 @@
       <!-- Hindustan Zinc -->
       <div class="exp-item fade-up">
         <div class="exp-meta">
-          <div class="exp-date">Apr – Jun 2025</div>
+          <div class="exp-date">Apr - Jun 2025</div>
           <div class="exp-company">Hindustan Zinc · Vedanta</div>
         </div>
         <div class="exp-content">
+          <div class="exp-type exp-type--intern">Internship</div>
           <div class="exp-highlight">🎉 Received Pre-Placement Offer</div>
-          <div class="exp-role">Management Trainee – Marketing</div>
+          <div class="exp-role">Management Trainee - Marketing</div>
           <div class="exp-location">📍 Udaipur, Rajasthan</div>
           <ul class="exp-points">
             <li>Forecasted demand for Zinc based on steel industry growth trends in India for upcoming years.</li>
@@ -155,10 +250,11 @@
       <!-- Pepsales AI -->
       <div class="exp-item fade-up">
         <div class="exp-meta">
-          <div class="exp-date">Jan – Feb 2025</div>
+          <div class="exp-date">Jan - Feb 2025</div>
           <div class="exp-company">Pepsales AI</div>
         </div>
         <div class="exp-content">
+          <div class="exp-type exp-type--intern">Live Project</div>
           <div class="exp-role">Sales & Marketing</div>
           <div class="exp-location">📍 Remote</div>
           <ul class="exp-points">
@@ -173,11 +269,11 @@
       <!-- PM Club -->
       <div class="exp-item fade-up">
         <div class="exp-meta">
-          <div class="exp-date">Oct 2024 – Mar 2025</div>
+          <div class="exp-date">Oct 2024 - Mar 2025</div>
           <div class="exp-company">PM Club · IIM Jammu</div>
         </div>
         <div class="exp-content">
-          <div class="exp-role">Core Member – Product Management Club</div>
+          <div class="exp-role">Core Member - Product Management Club</div>
           <div class="exp-location">📍 Jammu, India</div>
           <ul class="exp-points">
             <li>Organised a National-level Product Management Case Competition with ~300 registered teams on Unstop.</li>
@@ -190,10 +286,11 @@
       <!-- Intervue -->
       <div class="exp-item fade-up">
         <div class="exp-meta">
-          <div class="exp-date">Apr – Jun 2024</div>
-          <div class="exp-company">Intervue.io</div>
+          <div class="exp-date">Apr - Jun 2024</div>
+          <div class="exp-company">Intervue</div>
         </div>
         <div class="exp-content">
+          <div class="exp-type exp-type--fulltime">Full-time</div>
           <div class="exp-role">Software Engineer</div>
           <div class="exp-location">📍 Bengaluru, Karnataka</div>
           <ul class="exp-points">
@@ -205,20 +302,41 @@
         </div>
       </div>
 
-      <!-- Toddle -->
+      <!-- Toddle full-time -->
       <div class="exp-item fade-up">
         <div class="exp-meta">
-          <div class="exp-date">Jun 2022 – Mar 2024</div>
+          <div class="exp-date">Jul 2023 - Mar 2024</div>
           <div class="exp-company">Toddle</div>
         </div>
         <div class="exp-content">
-          <div class="exp-role">Associate Software Engineer → Frontend Engineer</div>
-          <div class="exp-location">📍 Bengaluru, Karnataka · 1 yr 10 months</div>
+          <div class="exp-type exp-type--fulltime">Full-time</div>
+          <div class="exp-role">Associate Software Engineer</div>
+          <div class="exp-location">📍 Bengaluru, Karnataka (Hybrid)</div>
           <ul class="exp-points">
-            <li>Built an advanced Rich Text Editor using the Lexical framework with row/column draggability, improving engagement by <strong>20%</strong>.</li>
-            <li>Created an AI Prompt Box component integrating GPT responses, achieving a <strong>45% boost in content efficiency</strong>.</li>
-            <li>Designed a scalable Modal component (React compound pattern) ensuring <strong>~100% popup design consistency</strong> platform-wide.</li>
-            <li>Contributed to the Design System team — built reusable components, wrote PRDs, SDDs, and upgraded libraries (Tailwind, Storybook).</li>
+          <li>Built an <strong>advanced</strong> Rich Text Editor using the <strong>Lexical</strong> framework with row and column
+            draggability in tables, enhancing user flexibility and editing, which <strong>improved</strong> engagement by <strong>20%</strong></li>
+          <li> Created an AI Prompt Box component, widely used across the platform to generate and update
+            content dynamically based on GPT responses, resulting in a <strong>45% boost</strong> in content efficiency</li>  
+          </ul>
+        </div>
+      </div>
+
+      <!-- Toddle intern -->
+      <div class="exp-item fade-up">
+        <div class="exp-meta">
+          <div class="exp-date">Jun 2022 - Jun 2023</div>
+          <div class="exp-company">Toddle</div>
+        </div>
+        <div class="exp-content">
+          <div class="exp-type exp-type--intern">Internship</div>
+          <div class="exp-highlight">🎉 Received Pre-Placement Offer</div>
+          <div class="exp-role">Frontend Engineer</div>
+          <div class="exp-location">📍 Remote</div>
+          <ul class="exp-points">
+            <li>Worked in <strong>Design System</strong> team - added multiple features in existing web components, collaborated with Design & Product teams, wrote extensive documentation (inc. various PRDs, SDDs) .</li>
+            <li>Created a scalable Modal component based on the React's <strong>compound component pattern</strong> which is now being used heavily across the platform - this helped in maintaining nearly 100% consistency in popup designs on the product. </li>
+            <li>Created reusable web components using Typescript & React.js</li>
+            <li>Maintained existing components, did enhancements by introducing new UI, improving UX. Upgraded libraries and packages used internally such as Tailwind for css, Storybook for demoing these components.</li>
           </ul>
         </div>
       </div>
@@ -315,12 +433,12 @@
       <div class="edu-card fade-up" data-year="26">
         <div class="edu-degree">Master of Business Administration</div>
         <div class="edu-school">Indian Institute of Management, Jammu</div>
-        <div class="edu-period">2024 – 2026</div>
+        <div class="edu-period">2024 - 2026</div>
       </div>
       <div class="edu-card fade-up" data-year="23">
         <div class="edu-degree">B.E. Computer Science</div>
         <div class="edu-school">Chitkara University</div>
-        <div class="edu-period">2019 – 2023</div>
+        <div class="edu-period">2019 - 2023</div>
       </div>
     </div>
   </section>
@@ -335,7 +453,7 @@
     <div class="ach-grid">
       <div class="ach-card fade-up">
         <div class="ach-icon">🥇</div>
-        <div class="ach-title">1st Position — Hackathon</div>
+        <div class="ach-title">1st Position - Hackathon</div>
         <div class="ach-sub">Code Innovation Series</div>
       </div>
       <div class="ach-card fade-up">
@@ -350,8 +468,9 @@
       </div>
       <div class="ach-card fade-up">
         <div class="ach-icon">💼</div>
-        <div class="ach-title">Pre-Placement Offer</div>
-        <div class="ach-sub">Hindustan Zinc, Vedanta Group</div>
+        <div class="ach-title">Pre-Placement Offers</div>
+        <div class="ach-sub">· Hindustan Zinc (Vedanta Group)</div>
+        <div class="ach-sub">· Toddle</div>
       </div>
     </div>
   </section>
@@ -365,7 +484,7 @@
     <div class="contact-links fade-up">
       <a href="mailto:harshitshharma7@gmail.com" class="contact-link contact-link--primary">✉️ Email Me</a>
       <a href="https://www.linkedin.com/in/iharshitsharma" target="_blank" rel="noopener" class="contact-link">💼 LinkedIn</a>
-      <a href="https://harshitsharma.com" target="_blank" rel="noopener" class="contact-link">🌐 Website</a>
+      <a href="https://instagram.com/harshitshharma" target="_blank" rel="noopener" class="contact-link">📸 Instagram</a>
       <a href="tel:+916280310689" class="contact-link">📞 Call</a>
     </div>
   </section>
@@ -373,7 +492,7 @@
   <!-- ===== FOOTER ===== -->
   <footer>
     <span>© 2026 Harshit Sharma. All rights reserved.</span>
-    <span><a href="https://harshitsharma.com">Built with Love ♡</a></span>
+    <span><a href="#">Built with Love ♡</a></span>
   </footer>
 
   <!-- Script -->
