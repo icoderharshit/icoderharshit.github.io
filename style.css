@@ -61,12 +61,12 @@ body {
   --border:        #d4cab8;
   --nav-bg:        rgba(245, 240, 232, 0.92);
   --card-bg:       #ede7d9;
-  --skills-bg:     #0d0d0d;
-  --skills-card:   #1a1a1a;
-  --skills-border: #2a2a2a;
-  --skills-text:   #f5f0e8;
-  --skills-tag-bg: #222222;
-  --skills-tag:    #888888;
+  --skills-bg:     #ede7d9;
+  --skills-card:   #f5f0e8;
+  --skills-border: #d4cab8;
+  --skills-text:   #0d0d0d;
+  --skills-tag-bg: #e4ddd0;
+  --skills-tag:    #7a7060;
   --hero-graphic:  linear-gradient(145deg, #ede7d9 0%, #ddd5c4 100%);
   --initials-color: rgba(13, 13, 13, 0.06);
   --toggle-bg:     #d4cab8;
@@ -763,6 +763,7 @@ blockquote cite {
 #skills {
   background: var(--skills-bg);
   border-top: 1px solid var(--skills-border);
+  border-bottom: 1px solid var(--skills-border);
   transition: background 0.4s ease, border-color 0.4s ease;
 }
 
