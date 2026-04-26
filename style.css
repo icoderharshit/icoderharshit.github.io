@@ -416,6 +416,13 @@ h1 em {
   transition: background 0.4s ease, border-color 0.4s ease;
 }
 
+/* SVG variant — let the SVG handle its own background */
+.hero-graphic--svg {
+  background: transparent;
+  border: none;
+  overflow: visible;
+}
+
 .hero-graphic::before {
   content: '';
   position: absolute;
@@ -673,6 +680,29 @@ blockquote cite {
   text-align: right;
   padding-top: 0.2rem;
   padding-right: 2rem;
+}
+
+.exp-type {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.65rem;
+  border-radius: 100px;
+  margin-bottom: 0.4rem;
+}
+
+.exp-type--intern {
+  background: rgba(200, 82, 42, 0.1);
+  color: var(--accent);
+  border: 1px solid rgba(200, 82, 42, 0.3);
+}
+
+.exp-type--fulltime {
+  background: rgba(42, 110, 166, 0.1);
+  color: var(--accent2);
+  border: 1px solid rgba(42, 110, 166, 0.3);
 }
 
 .exp-date {
